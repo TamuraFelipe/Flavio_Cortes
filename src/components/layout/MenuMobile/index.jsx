@@ -8,9 +8,9 @@ import {
   PhoneIcon,
   MenuIcon,
 } from "lucide-react";
-import ButtonAgendar from "../ButtonAgendar";
-import logo from "../../assets/logo_dark.png";
 
+import ButtonAgendar from "../../ui/ButtonAgendar";
+import logo from "../../../assets/logo_dark.png";
 const MenuMobile = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
