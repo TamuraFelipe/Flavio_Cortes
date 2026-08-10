@@ -1,4 +1,4 @@
-export function Container({ children }) {
+const Container = ({ children }) => {
   return (
     <div
       className="
@@ -12,4 +12,6 @@ export function Container({ children }) {
       {children}
     </div>
   );
-}
+};
+
+export default Container;
