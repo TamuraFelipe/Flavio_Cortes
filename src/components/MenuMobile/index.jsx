@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {
-  Calendar1Icon,
   ImageIcon,
   HomeIcon,
   ScissorsIcon,
@@ -9,6 +8,7 @@ import {
   PhoneIcon,
   MenuIcon,
 } from "lucide-react";
+import ButtonAgendar from "../ButtonAgendar";
 import logo from "../../assets/logo_dark.png";
 
 const MenuMobile = () => {
@@ -89,7 +89,7 @@ const MenuMobile = () => {
             </button>
           </div>
 
-          <nav>
+          <nav className="mb-10">
             <ul className="flex flex-col text-white text-lg">
               <li className="border-b border-gray-700 py-4">
                 <a
@@ -148,24 +148,7 @@ const MenuMobile = () => {
             </ul>
           </nav>
 
-          <button
-            className="
-              mt-4
-              w-full
-              flex
-              justify-center
-              items-center
-              gap-2
-              bg-brand
-              text-white
-              py-3
-              rounded-md
-              text-xs
-              "
-          >
-            <Calendar1Icon />
-            AGENDAR HORÁRIO
-          </button>
+          <ButtonAgendar variant="menu" />
         </aside>
       </div>
     </>

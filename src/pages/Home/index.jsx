@@ -1,5 +1,6 @@
 import Container from "../../components/Container";
 import MenuMobile from "../../components/MenuMobile";
+import ButtonAgendar from "../../components/ButtonAgendar";
 import logo from "../../assets/logo_dark.png";
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
               <img
                 src={logo}
                 alt="Description"
-                width={120}
+                width={100}
                 height={30}
                 alt="Flavio Cortes"
               />
@@ -25,7 +26,7 @@ const Home = () => {
                 <li>Contato</li>
               </ul>
             </nav>
-            <button>Agendar horário</button>
+            <ButtonAgendar variant="header" />
 
             <MenuMobile />
           </div>
