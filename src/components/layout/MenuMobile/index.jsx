@@ -39,9 +39,6 @@ const MenuMobile = () => {
           className={`
               absolute
               inset-0
-              top-16.20
-              md:top-18
-              lg:top-[17.5]
               bg-black/70
               transition-opacity
               duration-300
@@ -57,11 +54,9 @@ const MenuMobile = () => {
           className={`
               absolute
               right-0
-              top-16.20
-              md:top-18 
-              lg:top-17.5
               h-full
               w-80
+              md:w-8/12
               bg-[#1F1F1F]
               p-6
 
