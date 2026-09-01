@@ -99,7 +99,7 @@ const MenuMobile = () => {
 
               <li className="border-b border-gray-700 py-4">
                 <a
-                  href="#serviços"
+                  href="#servicos"
                   onClick={closeMenu}
                   className="flex items-center gap-4"
                 >

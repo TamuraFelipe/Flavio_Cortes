@@ -32,7 +32,7 @@ const Contato = () => {
               <div>
                 <p className="text-gray-400 uppercase text-sm">Endereço</p>
                 <p>Rua XV de Novembro, 344 - Centro</p>
-                <p>Araçatuba, SP</p>
+                <p>Araçatuba, SP - 16010-030</p>
               </div>
             </div>
             <div className="flex gap-6">

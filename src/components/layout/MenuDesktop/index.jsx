@@ -9,7 +9,7 @@ const MenuDesktop = () => {
   return (
     <ul className="flex gap-10 items-center">
       {menuItems.map((item) => (
-        <li key={item.href} className="border-b-2 border-brand pb-1">
+        <li key={item.href} className="border-b border-brand pb-1">
           <a className="pb-2" href={item.href}>
             {item.name}
           </a>

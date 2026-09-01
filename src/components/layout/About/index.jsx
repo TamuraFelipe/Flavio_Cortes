@@ -13,19 +13,18 @@ const About = () => {
           <img
             src={imgAbout}
             alt="Imagem de um cadeira de barbeiro no meio de um salão"
-            className="w-full lg:w-[50%]"
+            className="w-full lg:w-[50%] lg:h-90"
           />
           <div className="space-y-6">
-            <h2 class="text-3xl md:text-4xl lg:text-6xl font-bold">
-              SEU ESTILO, <br />
-              SUA IDENTIDADE.
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold uppercase">
+              Muito além de <br />
+              Um simples corte.
             </h2>
-            <p className="text-sm lg:text-base">
-              Aqui, cada detalhe importa. Do corte ao acabamento, o foco é o seu
-              estilo e sua personalidade.
-              <br />
-              Ambiente moderno, descontraído e feito para você se sentir à
-              vontade.
+            <p className="text-sm lg:text-base leading-relaxed text-neutral-300">
+              Aqui você não vem apenas cortar o cabelo ou alinhar a barba — vem
+              para dar uma pausa na rotina. <br /> Trabalhamos cada detalhe com
+              atenção máxima para você sair com a autoestima renovada em um
+              ambiente feito para se sentir em casa.
             </p>
 
             <div className="flex items-center justify-between lg:justify-start lg:gap-10">

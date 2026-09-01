@@ -13,8 +13,7 @@ import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
 const services = [
   {
     name: "Corte",
-    description:
-      "Cortes de cabelo masculinos e femininos, incluindo cortes clássicos, modernos e personalizados.",
+    description: "Cortes clássicos, modernos e personalizados.",
     price: "R$30",
     img: corteImg,
     mostPopular: true,
@@ -29,8 +28,7 @@ const services = [
   },
   {
     name: "Sobrancelha",
-    description:
-      "Design e modelagem de sobrancelhas, incluindo depilação e tintura.",
+    description: "Design e modelagem de sobrancelhas.",
     price: "R$10",
     img: sobrancelhaImg,
     mostPopular: false,
@@ -38,7 +36,7 @@ const services = [
   {
     name: "Pézinho",
     description:
-      "Serviço de cuidados com os pés, incluindo corte de unhas, hidratação e massagem.",
+      "Acabamento e cuidado com o pézinho, garantindo um visual limpo e bem cuidado.",
     price: "R$10",
     img: pezinhoImg,
     mostPopular: false,

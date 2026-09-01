@@ -39,7 +39,7 @@ const Hero = () => {
       <Container>
         <div className="space-y-6 lg:space-y-8">
           <ul className="flex items-center gap-2">
-            {["CORTE MASCULINO", "BARBA", "CONFIANÇA"].map((item) => (
+            {["CORTE MASCULINO", "BARBA", "ACABAMENTO"].map((item) => (
               <li
                 key={item}
                 className="
