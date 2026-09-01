@@ -12,7 +12,7 @@ const Contato = () => {
         <div className="flex gap-8">
           <iframe
             title="Mapa de Araçatuba, SP"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14840.978382882513!2d-50.4562258435346!3d-21.205784252921845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949644777aaaf101%3A0xe8b1a2cfce0a1d27!2zQXJhw6dhdHViYSwgU1A!5e1!3m2!1spt-BR!2sbr!4v1788265172676!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4412.32726642173!2d-50.4373934!3d-21.2031737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94964325e7e4e571%3A0xf5b2b9b3d68e4b3e!2sDudan%20Barber%20Shop!5e1!3m2!1spt-BR!2sbr!4v1788267393703!5m2!1spt-BR!2sbr"
             width="600"
             height="450"
             style={{ border: 0 }}
