@@ -1,6 +1,6 @@
 import Container from "../../layout/Container";
 import SectionTitle from "../../ui/SectionTitle";
-import ButtonAgendar from "../../ui/ButtonAgendar";
+import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
 
 import { MapPinIcon, PhoneIcon, ClockIcon } from "lucide-react";
 
@@ -10,7 +10,7 @@ const Contato = () => {
       <div id="contato">
         <SectionTitle title="Contato" />
 
-        <div className="flex gap-8">
+        <div className="flex gap-8 mb-8">
           <iframe
             title="Mapa de Araçatuba, SP"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4412.32726642173!2d-50.4373934!3d-21.2031737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94964325e7e4e571%3A0xf5b2b9b3d68e4b3e!2sDudan%20Barber%20Shop!5e1!3m2!1spt-BR!2sbr!4v1788267393703!5m2!1spt-BR!2sbr"
@@ -60,7 +60,7 @@ const Contato = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <ButtonAgendar variant="header" />
+              <ButtonAgendarSpecial />
             </div>
           </div>
         </div>
