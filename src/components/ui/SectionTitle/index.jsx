@@ -1,6 +1,6 @@
 const SectionTitle = ({ title }) => {
   return (
-    <div className="w-full mb-8 mt-8">
+    <div className="w-full py-12">
       {/* Título com linhas laterais */}
       <div className="flex items-center gap-6">
         {/* Linha esquerda */}
