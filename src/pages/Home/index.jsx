@@ -1,11 +1,9 @@
-/* Layout imports */
 import Header from "../../components/layout/Header";
 import Hero from "../../components/layout/Hero";
 import About from "../../components/layout/About";
-//import Services from "../../components/layout/Services";
 import Galeria from "../../components/layout/Galeria";
 import Services2 from "../../components/layout/Services2";
-//import MidBanner from "../../components/layout/MidBanner";
+import MidBanner from "../../components/layout/MidBanner";
 import Contato from "../../components/layout/Contato";
 import Footer from "../../components/layout/Footer";
 
@@ -18,9 +16,8 @@ const Home = () => {
         <Hero />
         <About />
         <Services2 />
-        {/* <Services /> */}
+        <MidBanner />
         <Galeria />
-        {/* <MidBanner /> */}
         <Contato />
       </main>
       <Footer />
