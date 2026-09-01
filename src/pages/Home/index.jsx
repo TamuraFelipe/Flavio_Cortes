@@ -5,7 +5,10 @@ import About from "../../components/layout/About";
 //import Services from "../../components/layout/Services";
 import Galeria from "../../components/layout/Galeria";
 import Services2 from "../../components/layout/Services2";
-import MidBanner from "../../components/layout/MidBanner";
+//import MidBanner from "../../components/layout/MidBanner";
+import Contato from "../../components/layout/Contato";
+
+import Container from "../../components/layout/Container";
 
 const Home = () => {
   return (
@@ -18,11 +21,14 @@ const Home = () => {
         <Services2 />
         {/* <Services /> */}
         <Galeria />
-        <MidBanner />
+        {/* <MidBanner /> */}
+        <Contato />
       </main>
 
-      <footer>
-        <p>Footer</p>
+      <footer className="bg-black text-white">
+        <Container>
+          <p className="text-center p-10">Footer</p>
+        </Container>
       </footer>
     </div>
   );
