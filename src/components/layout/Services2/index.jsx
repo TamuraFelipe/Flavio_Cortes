@@ -8,6 +8,8 @@ import pezinhoImg from "../../../assets/pezinho.webp";
 import pomadaImg from "../../../assets/pomada.webp";
 import gelImg from "../../../assets/gel.webp";
 
+import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
+
 const services = [
   {
     name: "Corte",
@@ -85,6 +87,9 @@ const Services2 = () => {
               </p>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center mt-8">
+          <ButtonAgendarSpecial />
         </div>
       </div>
     </Container>

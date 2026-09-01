@@ -1,5 +1,6 @@
 import Container from "../../layout/Container";
 import SectionTitle from "../../ui/SectionTitle";
+import ButtonAgendar from "../../ui/ButtonAgendar";
 
 import { MapPinIcon, PhoneIcon, ClockIcon } from "lucide-react";
 
@@ -57,6 +58,9 @@ const Contato = () => {
                   Domingo: <span className="text-brand font-bold">Fechado</span>
                 </p>
               </div>
+            </div>
+            <div className="flex justify-center">
+              <ButtonAgendar variant="header" />
             </div>
           </div>
         </div>

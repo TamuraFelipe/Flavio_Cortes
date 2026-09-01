@@ -15,7 +15,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="h-screen w-screen overflow-x-auto scroll-smooth space-y-2 lg:space-y-8">
+    <div className="h-screen w-screen overflow-x-auto scroll-smooth space-y-2">
       <Header />
 
       <main className="space-y-2 lg:space-y-10">
