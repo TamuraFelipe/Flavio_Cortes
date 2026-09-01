@@ -27,7 +27,7 @@ const MidBanner = () => {
             <p className="text-sm sm:text-base lg:text-lg text-neutral-300 leading-relaxed font-light">
               Atendendo na renomada{" "}
               <strong className="text-white font-semibold">
-                Dudan Barber Shop
+                Dudan Barber Shop - Araçatuba/SP
               </strong>
               , unimos a tradição do corte clássico com a sofisticação da
               barbearia moderna. Um espaço de alto padrão, estrutura premium e
