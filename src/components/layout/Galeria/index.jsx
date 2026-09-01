@@ -61,7 +61,7 @@ const Galeria = () => {
               key={item.id}
               src={item.imgUrl}
               alt={item.description}
-              className="max-w-50 max-h-75 object-cover"
+              className="max-w-40 lg:max-w-50 max-h-75 object-cover"
             />
           ))}
         </div>

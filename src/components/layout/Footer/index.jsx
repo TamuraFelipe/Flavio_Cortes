@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white">
       <Container>
-        <div className="p-10 flex items-center justify-between">
-          <div className="flex gap-8">
+        <div className="p-10 flex flex-col lg:flex-row gap-10 items-center justify-between">
+          <div className="flex gap-8 mb-0">
             <div className="flex flex-col gap-2">
               <h5 className="font-semibold">Flavio Barbeiro</h5>
               <div className="flex items-center gap-2">
@@ -37,15 +37,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-2">
+          <div className="flex flex-col items-center gap-2 mb-0">
             <Logo />
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm text-center">
               © 2023 Flavio Barbeiro. Todos os direitos reservados.
             </p>
           </div>
           <div>
             <div>
-              <p>
+              <p className="text-sm">
                 ❤️ Desenvolvido por{" "}
                 <a
                   href="https://github.com/tamurafelipe"

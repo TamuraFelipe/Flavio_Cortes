@@ -10,7 +10,7 @@ const Contato = () => {
       <div id="contato">
         <SectionTitle title="Contato" />
 
-        <div className="flex gap-8 mb-8">
+        <div className="flex flex-col md:flex-row gap-8 mb-8">
           <iframe
             title="Mapa de Araçatuba, SP"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4412.32726642173!2d-50.4373934!3d-21.2031737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94964325e7e4e571%3A0xf5b2b9b3d68e4b3e!2sDudan%20Barber%20Shop!5e1!3m2!1spt-BR!2sbr!4v1788267393703!5m2!1spt-BR!2sbr"
@@ -20,7 +20,7 @@ const Contato = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            className="h-96 rounded-lg shadow-lg"
+            className="h-80 w-90 md:h-100 lg:h-96 lg:w-1/2 rounded-lg shadow-lg mx-auto"
           />
 
           <div className="space-y-6 w-full lg:w-1/2">

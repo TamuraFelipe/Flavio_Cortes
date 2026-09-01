@@ -1,6 +1,6 @@
 const SectionTitle = ({ title }) => {
   return (
-    <div className="w-full mb-8">
+    <div className="w-full mb-8 mt-8">
       {/* Título com linhas laterais */}
       <div className="flex items-center gap-6">
         {/* Linha esquerda */}
@@ -18,7 +18,8 @@ const SectionTitle = ({ title }) => {
         <span
           className="
             shrink-0
-            text-base
+            text-sm
+            lg:text-base
             font-bold
             uppercase
             tracking-[0.45em]
