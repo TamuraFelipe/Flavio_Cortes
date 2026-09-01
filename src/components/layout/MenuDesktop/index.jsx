@@ -1,10 +1,10 @@
 const MenuDesktop = () => {
   const menuItems = [
-    { name: "Home", href: "/" },
-    { name: "Sobre", href: "/sobre" },
-    { name: "Serviços", href: "/servicos" },
-    { name: "Galeria", href: "/galeria" },
-    { name: "Contato", href: "/contato" },
+    { name: "Home", href: "#home" },
+    { name: "Sobre", href: "#sobre" },
+    { name: "Serviços&Produtos", href: "#servicos" },
+    { name: "Galeria", href: "#galeria" },
+    { name: "Contato", href: "#contato" },
   ];
   return (
     <ul className="flex gap-10 items-center">

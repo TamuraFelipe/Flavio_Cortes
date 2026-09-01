@@ -1,6 +1,6 @@
 import Container from "../Container";
 
-import ButtonAgendar from "../../ui/ButtonAgendar";
+import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
 
 import tesouraIcon from "../../../assets/tesoura-icon.png";
 import barbaIcon from "../../../assets/barba-icon.png";
@@ -14,7 +14,7 @@ const Hero = () => {
             relative
             bg-black
 
-            md:bg-[url('/src/assets/hero.png')]
+            md:bg-[url('/src/assets/hero_1.webp')]
             md:bg-contain
             md:bg-right
             lg:bg-position-[45vw]
@@ -99,7 +99,7 @@ const Hero = () => {
               </span>
             </div>
           </div>
-          <ButtonAgendar variant="hero" />
+          <ButtonAgendarSpecial />
         </div>
       </Container>
     </div>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "img": "corte_01.jpeg",
+    "alt": "Corte de cabelo masculino"
+  },
+  {
+    "id": 2,
+    "img": "corte_02.jpeg",
+    "alt": "Corte de cabelo feminino"
+  },
+  {
+    "id": 3,
+    "img": "corte_03.jpeg",
+    "alt": "Corte de cabelo infantil"
+  },
+  {
+    "id": 4,
+    "img": "corte_04.jpeg",
+    "alt": "Corte de cabelo moderno"
+  }
+]

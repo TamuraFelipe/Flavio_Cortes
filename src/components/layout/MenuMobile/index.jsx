@@ -99,18 +99,18 @@ const MenuMobile = () => {
 
               <li className="border-b border-gray-700 py-4">
                 <a
-                  href="#services"
+                  href="#serviços"
                   onClick={closeMenu}
                   className="flex items-center gap-4"
                 >
                   <ScissorsIcon />
-                  Serviços
+                  Serviços&Produtos
                 </a>
               </li>
 
               <li className="border-b border-gray-700 py-4">
                 <a
-                  href="#gallery"
+                  href="#galeria"
                   onClick={closeMenu}
                   className="flex items-center gap-4"
                 >
@@ -121,7 +121,7 @@ const MenuMobile = () => {
 
               <li className="border-b border-gray-700 py-4">
                 <a
-                  href="#about"
+                  href="#sobre"
                   onClick={closeMenu}
                   className="flex items-center gap-4"
                 >
@@ -132,7 +132,7 @@ const MenuMobile = () => {
 
               <li className="border-b border-gray-700 py-4">
                 <a
-                  href="#contact"
+                  href="#contato"
                   onClick={closeMenu}
                   className="flex items-center gap-4"
                 >
