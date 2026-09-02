@@ -15,7 +15,7 @@ const Hero = () => {
       {/* Imagem principal do Hero como tag <img> */}
       <img
         src="./hero_1.webp"
-        alt="Dudan Barbershop Banner"
+        alt="Flavio Cortes - Araçatuba/SP "
         fetchPriority="high"
         decoding="sync"
         className="

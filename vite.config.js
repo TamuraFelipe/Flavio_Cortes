@@ -21,6 +21,8 @@ export default defineConfig({
       injectRegister: "auto",
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg,webp,jpg,jpeg}"],
+        // Evita que o Service Worker fique disputando o preload do HTML inicial
+        navigateFallbackDenylist: [/hero_1\.webp$/],
       },
       manifest: {
         name: "Flavio Cortes",
