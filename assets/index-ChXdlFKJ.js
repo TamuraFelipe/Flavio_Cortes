@@ -61,7 +61,7 @@ Error generating stack: `+e.message+`
       text-[#c99a4a]\r
       transition-transform duration-300\r
       group-hover:scale-110\r
-    `}),(0,b.jsxs)(`div`,{children:[(0,b.jsx)(`span`,{className:`block text-sm font-medium tracking-widest text-[#c99a4a]`,children:`AGENDAR HORÁRIO`}),(0,b.jsx)(`span`,{className:`block text-xs text-white/50`,children:`Seu estilo, nosso compromisso`})]})]}),we=``+new URL(`tesoura-icon-DRv_A7Rg.png`,import.meta.url).href,Te=``+new URL(`barba-icon-s0RIqHU5.png`,import.meta.url).href,Ee=``+new URL(`borrifador-icon-Cl-I0lPB.png`,import.meta.url).href,De=()=>(0,b.jsxs)(`section`,{id:`home`,className:`relative bg-black py-6 md:py-8 min-h-100 overflow-hidden`,children:[(0,b.jsx)(`img`,{src:`./hero_1.webp`,alt:`Dudan Barbershop Banner`,fetchPriority:`high`,decoding:`sync`,className:`\r
+    `}),(0,b.jsxs)(`div`,{children:[(0,b.jsx)(`span`,{className:`block text-sm font-medium tracking-widest text-[#c99a4a]`,children:`AGENDAR HORÁRIO`}),(0,b.jsx)(`span`,{className:`block text-xs text-white/50`,children:`Seu estilo, nosso compromisso`})]})]}),we=``+new URL(`tesoura-icon-DRv_A7Rg.png`,import.meta.url).href,Te=``+new URL(`barba-icon-s0RIqHU5.png`,import.meta.url).href,Ee=``+new URL(`borrifador-icon-Cl-I0lPB.png`,import.meta.url).href,De=()=>(0,b.jsxs)(`section`,{id:`home`,className:`relative bg-black py-6 md:py-8 min-h-100 overflow-hidden`,children:[(0,b.jsx)(`img`,{src:`./hero_1.webp`,alt:`Flavio Cortes - Araçatuba/SP `,fetchPriority:`high`,decoding:`sync`,className:`\r
           hidden md:block\r
           absolute right-0 top-0 h-full w-auto\r
           object-contain object-right\r
