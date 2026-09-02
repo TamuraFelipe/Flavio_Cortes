@@ -17,7 +17,7 @@ const Footer = () => {
                 href="https://github.com/tamurafelipe"
                 target="_blank"
                 rel="noreferrer"
-                className="text-gray-400 hover:text-brand transition-colors"
+                className="text-white font-semibold hover:text-brand transition-colors"
               >
                 Felipe Tamura
               </a>
