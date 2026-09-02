@@ -14,7 +14,7 @@ const Hero = () => {
             relative
             bg-black
 
-            md:bg-[url('/src/assets/hero_1.webp')]
+            md:bg-[url('/hero_1.webp')]
             md:bg-contain
             md:bg-right
             lg:bg-position-[45vw]

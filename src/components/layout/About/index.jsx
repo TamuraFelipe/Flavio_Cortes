@@ -14,7 +14,6 @@ const About = () => {
             src={imgAbout}
             alt="Imagem de um cadeira de barbeiro no meio de um salão"
             className="w-full lg:w-[50%] lg:h-90"
-            loading="lazy"
           />
           <div className="space-y-6">
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold uppercase">
