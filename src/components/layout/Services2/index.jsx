@@ -1,12 +1,12 @@
 import SectionTitle from "../../ui/SectionTitle";
 import Container from "../../layout/Container";
 
-import corteImg from "../../../assets/corte.webp";
+/* import corteImg from "../../../assets/corte.webp";
 import barbaImg from "../../../assets/barba.webp";
 import sobrancelhaImg from "../../../assets/sobrancelha.webp";
 import pezinhoImg from "../../../assets/pezinho.webp";
 import pomadaImg from "../../../assets/pomada.webp";
-import gelImg from "../../../assets/gel.webp";
+import gelImg from "../../../assets/gel.webp"; */
 
 import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
 
@@ -15,7 +15,6 @@ const services = [
     name: "Corte",
     description: "Cortes clássicos, modernos e personalizados.",
     price: "R$30",
-    img: corteImg,
     mostPopular: true,
   },
   {
@@ -23,14 +22,12 @@ const services = [
     description:
       "Serviço de barbearia, incluindo aparar, modelar e cuidar da barba.",
     price: "R$30",
-    img: barbaImg,
     mostPopular: false,
   },
   {
     name: "Sobrancelha",
     description: "Design e modelagem de sobrancelhas.",
     price: "R$10",
-    img: sobrancelhaImg,
     mostPopular: false,
   },
   {
@@ -38,7 +35,6 @@ const services = [
     description:
       "Acabamento e cuidado com o pézinho, garantindo um visual limpo e bem cuidado.",
     price: "R$10",
-    img: pezinhoImg,
     mostPopular: false,
   },
   {
@@ -46,7 +42,6 @@ const services = [
     description:
       "Pomada para modelar e fixar o cabelo, proporcionando estilo e controle.",
     price: "R$30",
-    img: pomadaImg,
     mostPopular: false,
   },
   {
@@ -54,7 +49,6 @@ const services = [
     description:
       "Gel para fixar penteados e manter o cabelo no lugar durante todo o dia.",
     price: "R$20",
-    img: gelImg,
     mostPopular: true,
   },
 ];

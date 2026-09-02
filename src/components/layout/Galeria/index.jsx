@@ -1,12 +1,12 @@
 import Container from "../Container";
 import SectionTitle from "../../ui/SectionTitle";
 
-import corte01Img from "../../../assets/corte_01.jpeg";
-import corte02Img from "../../../assets/corte_02.jpeg";
-import corte03Img from "../../../assets/corte_03.jpeg";
-import corte04Img from "../../../assets/corte_04.jpeg";
-import corte05Img from "../../../assets/corte_05.jpeg";
-import corte06Img from "../../../assets/corte_06.jpeg";
+import corte01Img from "../../../assets/corte_01.webp";
+import corte02Img from "../../../assets/corte_02.webp";
+import corte03Img from "../../../assets/corte_03.webp";
+import corte04Img from "../../../assets/corte_04.webp";
+import corte05Img from "../../../assets/corte_05.webp";
+import corte06Img from "../../../assets/corte_06.webp";
 
 const galeria = [
   {
