@@ -5,25 +5,27 @@ import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
 import tesouraIcon from "../../../assets/tesoura-icon.png";
 import barbaIcon from "../../../assets/barba-icon.png";
 import borrifadorIcon from "../../../assets/borrifador-icon.png";
+import heroBg from "../../../assets/hero_1.webp";
 
 const Hero = () => {
   return (
-    <div
+    <section
       id="home"
-      className="
-            relative
-            bg-black
-
-            md:bg-[url('/hero_1.webp')]
-            md:bg-contain
-            md:bg-right
-            lg:bg-position-[45vw]
-            md:bg-no-repeat
-
-            py-6
-            md:py-8
-        "
+      className="relative bg-black py-6 md:py-8 min-h-100 overflow-hidden"
     >
+      {/* Imagem principal do Hero como tag <img> */}
+      <img
+        src={heroBg}
+        alt="Dudan Barbershop Banner"
+        fetchPriority="high"
+        decoding="sync"
+        className="
+          hidden md:block
+          absolute right-0 top-0 h-full w-auto
+          object-contain object-right
+          pointer-events-none
+        "
+      />
       {/* Overlay degradê */}
       <div
         className="
@@ -102,7 +104,7 @@ const Hero = () => {
           <ButtonAgendarSpecial />
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 
