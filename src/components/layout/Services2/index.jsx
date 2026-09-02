@@ -65,7 +65,7 @@ const Services2 = () => {
               className={`rounded shadow relative max-h-75 min-h-41.5 overflow-hidden bg-black p-8 ${service.mostPopular ? "border border-brand" : "border border-gray-800"}`}
             >
               {service.mostPopular && (
-                <div className="absolute top-0 right-0 bg-brand text-white px-2 py-1 text-xs font-semibold">
+                <div className="absolute top-0 right-0 bg-brand text-black px-2 py-1 text-xs font-semibold">
                   Mais Vendido
                 </div>
               )}
