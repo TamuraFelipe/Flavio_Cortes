@@ -62,6 +62,7 @@ const Galeria = () => {
               src={item.imgUrl}
               alt={item.description}
               className="max-w-40 lg:max-w-50 max-h-75 object-cover"
+              loading="lazy"
             />
           ))}
         </div>

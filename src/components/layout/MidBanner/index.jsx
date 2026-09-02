@@ -1,7 +1,7 @@
 import Container from "../Container";
 import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
 
-import midBannerImg from "../../../assets/mid-banner.jpg";
+import midBannerImg from "../../../assets/mid-banner.webp";
 import logoDudan from "../../../assets/dudan_barbershop-logo.jpg"; // <-- Descomente e ajuste o caminho da logo
 
 const MidBanner = () => {
@@ -12,6 +12,7 @@ const MidBanner = () => {
           src={midBannerImg}
           alt="Ambiente Barbearia Dudan Barber Shop"
           className="h-full w-full object-cover object-center"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-linear-to-r from-black/90 via-black/80 to-black/60" />
       </div>
