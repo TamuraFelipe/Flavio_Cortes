@@ -5,7 +5,6 @@ import ButtonAgendarSpecial from "../../ui/ButtonAgendarSpecial";
 import tesouraIcon from "../../../assets/tesoura-icon.png";
 import barbaIcon from "../../../assets/barba-icon.png";
 import borrifadorIcon from "../../../assets/borrifador-icon.png";
-import heroBg from "../../../assets/hero_1.webp";
 
 const Hero = () => {
   return (
@@ -15,7 +14,7 @@ const Hero = () => {
     >
       {/* Imagem principal do Hero como tag <img> */}
       <img
-        src={heroBg}
+        src="./hero_1.webp"
         alt="Dudan Barbershop Banner"
         fetchPriority="high"
         decoding="sync"
