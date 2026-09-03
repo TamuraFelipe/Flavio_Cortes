@@ -39,16 +39,6 @@ const galeria = [
     imgUrl: corte06Img,
     description: "Corte com degradê",
   },
-  {
-    id: 7,
-    imgUrl: corte04Img,
-    description: "Corte com moicano estilizado",
-  },
-  {
-    id: 8,
-    imgUrl: corte03Img,
-    description: "Corte com desenho lateral",
-  },
 ];
 const Galeria = () => {
   return (
