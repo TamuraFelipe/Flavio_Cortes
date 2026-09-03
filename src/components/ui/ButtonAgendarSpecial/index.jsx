@@ -1,7 +1,10 @@
 import { CalendarDaysIcon } from "lucide-react";
+import redirecionaWpp from "../../../utils/redirecionaWpp";
+
 const ButtonAgendarSpecial = () => {
   return (
     <button
+      onClick={redirecionaWpp}
       className="
     group
     inline-flex
