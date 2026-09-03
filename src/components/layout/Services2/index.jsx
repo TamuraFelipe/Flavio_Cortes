@@ -70,7 +70,9 @@ const Services2 = () => {
                 </div>
               )}
               <div className="flex w-full items-center justify-between mb-4">
-                <p className="uppercase text-base font-bold">{service.name}</p>
+                <h3 className="uppercase text-base font-bold">
+                  {service.name}
+                </h3>
                 <p className="font-semibold text-brand">{service.price}</p>
               </div>
 

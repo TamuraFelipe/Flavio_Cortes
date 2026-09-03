@@ -12,7 +12,6 @@ const Hero = () => {
       id="home"
       className="relative bg-black py-6 md:py-8 min-h-100 overflow-hidden"
     >
-      {/* Imagem principal do Hero como tag <img> */}
       <img
         src="./hero_1.webp"
         alt="Flavio Cortes - Araçatuba/SP "
@@ -25,7 +24,6 @@ const Hero = () => {
           pointer-events-none
         "
       />
-      {/* Overlay degradê */}
       <div
         className="
         hidden
@@ -61,10 +59,10 @@ const Hero = () => {
               </li>
             ))}
           </ul>
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
             SEU ESTILO, <br />
             SUA IDENTIDADE.
-          </h2>
+          </h1>
           <p className="text-sm md:text-base max-w-87.5">
             Cortes modernos, acabamentos impecáveis e um atendimento feito pra
             você.

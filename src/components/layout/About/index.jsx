@@ -16,10 +16,10 @@ const About = () => {
             className="w-full lg:w-[50%] lg:h-90"
           />
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase">
               Muito além de <br />
               Um simples corte.
-            </h2>
+            </h1>
             <p className="text-sm lg:text-base leading-relaxed text-neutral-300">
               Aqui você não vem apenas cortar o cabelo ou alinhar a barba — vem
               para dar uma pausa na rotina. <br /> Trabalhamos cada detalhe com

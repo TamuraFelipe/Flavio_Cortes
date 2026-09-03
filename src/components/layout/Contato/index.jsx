@@ -27,7 +27,9 @@ const Contato = () => {
           />
 
           <div className="space-y-6 w-full lg:w-1/2">
-            <h3 className="text-2xl font-bold text-center">Dudan Barbershop</h3>
+            <h3 className="text-2xl font-bold text-center">
+              Dudan Barber Shop
+            </h3>
             <div className="flex gap-6">
               <MapPinIcon className="text-brand" />
               <div>

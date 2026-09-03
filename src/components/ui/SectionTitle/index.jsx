@@ -15,19 +15,19 @@ const SectionTitle = ({ title }) => {
         />
 
         {/* Título */}
-        <span
+        <h2
           className="
             shrink-0
             text-sm
             lg:text-base
             font-bold
             uppercase
-            tracking-[0.45em]
+            tracking-widest
             text-[#b89b5e]
           "
         >
           {title}
-        </span>
+        </h2>
 
         {/* Linha direita */}
         <div
