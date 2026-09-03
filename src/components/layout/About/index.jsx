@@ -1,14 +1,14 @@
 import Container from "../Container";
-import SectionTitle from "../../ui/SectionTitle";
+//import SectionTitle from "../../ui/SectionTitle";
 
 import { GemIcon, StarIcon, ClockIcon } from "lucide-react";
 
 import imgAbout from "../../../assets/about_1.webp";
 const About = () => {
   return (
-    <section id="sobre">
+    <section id="sobre" className="py-20 lg:py-12">
       <Container>
-        <SectionTitle title="Sobre" />
+        {/* <SectionTitle title="Sobre" /> */}
         <div className="flex flex-col lg:flex-row items-start gap-8">
           <img
             src={imgAbout}
